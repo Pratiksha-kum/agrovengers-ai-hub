@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syngenta Cropwise AI AgentHub - Complete Farm Intelligence Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="syngenta-logo">
+                    <div class="logo-icon">🌱</div>
+                    <span>Syngenta Cropwise AI AgentHub</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <button class="nav-btn active" data-section="hero">Home</button>
+                <button class="nav-btn" data-section="agents">AI Agents</button>
+                <button class="nav-btn" data-section="protection">Crop Protection</button>
+                <button class="nav-btn" data-section="seeds">Seeds & Varieties</button>
+                <button class="nav-btn" data-section="voice">Voice Interface</button>
+                <button class="nav-btn" data-section="negotiation">Smart Negotiation</button>
+                <button class="nav-btn" data-section="sustainability">Sustainability</button>
+                <button class="nav-btn" data-section="training">Training</button>
+                <div class="language-toggle">
+                    <select id="globalLanguage" class="form-control">
+                        <option value="en">English</option>
+                        <option value="hi">हिंदी</option>
+                        <option value="mr">मराठी</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section active">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🚀 Empowering 20 Million Farmers by 2025</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="syngenta-green">Syngenta Cropwise</span><br>
+                    AI AgentHub
+                    <span class="hero-subtitle-accent">Complete Farm Intelligence Platform</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Revolutionary AI-powered ecosystem integrating crop protection, premium seeds, and intelligent farming solutions. 
+                    Serving 70M hectares globally with 10 specialized AI agents working together for farmer prosperity.
+                </p>
+                
+                <div class="hero-stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">👨‍🌾</div>
+                        <div class="stat-number" data-target="12547">0</div>
+                        <div class="stat-label">Farmers Empowered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌾</div>
+                        <div class="stat-number">25%</div>
+                        <div class="stat-label">Yield Improvement</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💰</div>
+                        <div class="stat-number">18.5%</div>
+                        <div class="stat-label">Price Increase</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌍</div>
+                        <div class="stat-number" data-target="2847">0</div>
+                        <div class="stat-label">Carbon Credits</div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <button class="btn btn--primary btn--lg cta-btn" data-action="start-journey">
+                        <span>🚀 Start Your AI Farm Journey</span>
+                    </button>
+                    <button class="btn btn--outline btn--lg demo-btn" data-action="watch-demo">
+                        <span>📹 Watch Demo</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="platform-preview">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/521637f4-c302-41f6-b600-8a0cf7f39c61.png" alt="Syngenta AI AgentHub Dashboard" class="hero-image">
+                    <div class="workflow-overlay">
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2497e14ad534a0fea49a523e3da09c0e/76ae99b7-9856-4f35-a398-360e2fa5cbac/13e476b6.png" alt="AI Workflow" class="workflow-diagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Agent Hub Dashboard -->
+    <section id="agents" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AI Agent Hub Dashboard</h2>
+                <p class="section-subtitle">10 Specialized AI Agents Working Together for Complete Farm Intelligence</p>
+            </div>
+            
+            <div class="agents-grid">
+                <div class="agent-card crop-guardian active">
+                    <div class="agent-header">
+                        <div class="agent-icon">🛡️</div>
+                        <div class="agent-info">
+                            <h3>Crop Guardian</h3>
+                            <p>Crop Protection AI</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>96% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Intelligent recommendations for Syngenta crop protection products: ADEPIDYN, Miravis, Acuron, Cruiser
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🎯 Protection Coverage: 98%</span>
+                        <span class="metric">⚡ Response Time: <2min</span>
+                    </div>
+                </div>
+
+                <div class="agent-card seed-sage">
+                    <div class="agent-header">
+                        <div class="agent-icon">🌱</div>
+                        <div class="agent-info">
+                            <h3>Seed Sage</h3>
+                            <p>Seeds Division AI</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>92% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Optimal variety selection from Syngenta's premium seed portfolio for maximum yield and quality
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🌾 Varieties: 500+</span>
+                        <span class="metric">📈 Yield Boost: 15-25%</span>
+                    </div>
+                </div>
+
+                <div class="agent-card kisan-mitra">
+                    <div class="agent-header">
+                        <div class="agent-icon">🤝</div>
+                        <div class="agent-info">
+                            <h3>किसान मित्र</h3>
+                            <p>Negotiation Agent</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>89% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Fair price negotiation and farmer protection with multilingual support
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">💰 Avg Increase: 18.5%</span>
+                        <span class="metric">🗣️ Languages: 3</span>
+                    </div>
+                </div>
+
+                <div class="agent-card market-oracle">
+                    <div class="agent-header">
+                        <div class="agent-icon">📊</div>
+                        <div class="agent-info">
+                            <h3>Market Oracle</h3>
+                            <p>Price Intelligence</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>95% Accuracy</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Real-time pricing intelligence from 500+ mandis with quality assessment premiums
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🏪 Mandis: 500+</span>
+                        <span class="metric">⏱️ Updates: Real-time</span>
+                    </div>
+                </div>
+
+                <div class="agent-card crop-whisperer">
+                    <div class="agent-header">
+                        <div class="agent-icon">🎤</div>
+                        <div class="agent-info">
+                            <h3>Crop Whisperer</h3>
+                            <p>Voice Assistant</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>91% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Multilingual voice-activated farm guidance with hands-free operation
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🎙️ Voice Commands: 100+</span>
+                        <span class="metric">📱 Offline Ready</span>
+                    </div>
+                </div>
+
+                <div class="agent-card rotation-master">
+                    <div class="agent-header">
+                        <div class="agent-icon">🔄</div>
+                        <div class="agent-info">
+                            <h3>Rotation Master</h3>
+                            <p>Crop Optimizer</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>88% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Intelligent crop rotation planning based on 5-year farm history and market trends
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">📅 Planning: 5+ Years</span>
+                        <span class="metric">💹 ROI Boost: 22%</span>
+                    </div>
+                </div>
+
+                <div class="agent-card sustainability-tracker">
+                    <div class="agent-header">
+                        <div class="agent-icon">🌍</div>
+                        <div class="agent-info">
+                            <h3>Sustainability Tracker</h3>
+                            <p>ESG Intelligence</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>93% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Carbon footprint monitoring and regenerative agriculture practice optimization
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🌱 Carbon Credits: 2,847</span>
+                        <span class="metric">♻️ Practices: 12</span>
+                    </div>
+                </div>
+
+                <div class="agent-card disease-detective">
+                    <div class="agent-header">
+                        <div class="agent-icon">🔍</div>
+                        <div class="agent-info">
+                            <h3>Disease Detective</h3>
+                            <p>Diagnostic AI</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>94% Accuracy</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Early disease detection with image analysis and Syngenta treatment recommendations
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">📸 Image Analysis: AI</span>
+                        <span class="metric">⚡ Detection: <10sec</span>
+                    </div>
+                </div>
+
+                <div class="agent-card weather-warrior">
+                    <div class="agent-header">
+                        <div class="agent-icon">🌦️</div>
+                        <div class="agent-info">
+                            <h3>Weather Warrior</h3>
+                            <p>Climate AI</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>97% Accuracy</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Weather-based farming recommendations integrated with Syngenta Cropwise climate data
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">🌡️ Forecasts: 14 days</span>
+                        <span class="metric">🎯 Precision: Hyperlocal</span>
+                    </div>
+                </div>
+
+                <div class="agent-card contract-creator">
+                    <div class="agent-header">
+                        <div class="agent-icon">📋</div>
+                        <div class="agent-info">
+                            <h3>Contract Creator</h3>
+                            <p>Legal AI</p>
+                        </div>
+                        <div class="agent-status">
+                            <div class="status-indicator active"></div>
+                            <span>90% Success</span>
+                        </div>
+                    </div>
+                    <div class="agent-description">
+                        Automated contract generation with legal compliance and digital signature integration
+                    </div>
+                    <div class="agent-metrics">
+                        <span class="metric">📄 Templates: 25+</span>
+                        <span class="metric">✅ Compliance: 100%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crop Protection Intelligence Center -->
+    <section id="protection" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Crop Protection Intelligence Center</h2>
+                <p class="section-subtitle">Powered by Syngenta's Premium Product Portfolio</p>
+            </div>
+            
+            <div class="protection-dashboard">
+                <div class="product-showcase">
+                    <div class="product-card flagship">
+                        <div class="product-header">
+                            <div class="product-logo">🛡️</div>
+                            <div class="product-info">
+                                <h3>ADEPIDYN®</h3>
+                                <span class="product-category">Premium Insecticide</span>
+                            </div>
+                            <div class="product-badge">Featured</div>
+                        </div>
+                        <div class="product-benefits">
+                            <span>✓ Broad spectrum control</span>
+                            <span>✓ Long-lasting protection</span>
+                            <span>✓ Corn & Soybean specialist</span>
+                        </div>
+                        <div class="product-action">
+                            <button class="btn btn--primary btn--sm">Get AI Recommendation</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-logo">🍄</div>
+                            <div class="product-info">
+                                <h3>Miravis® Neo</h3>
+                                <span class="product-category">Fungicide + Plant Health</span>
+                            </div>
+                        </div>
+                        <div class="product-benefits">
+                            <span>✓ Disease prevention</span>
+                            <span>✓ Plant health boost</span>
+                            <span>✓ Stress tolerance</span>
+                        </div>
+                        <div class="product-action">
+                            <button class="btn btn--outline btn--sm">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-logo">🌿</div>
+                            <div class="product-info">
+                                <h3>Acuron®</h3>
+                                <span class="product-category">Herbicide</span>
+                            </div>
+                        </div>
+                        <div class="product-benefits">
+                            <span>✓ 5-15 more bushels/acre</span>
+                            <span>✓ Weed control excellence</span>
+                            <span>✓ Corn optimization</span>
+                        </div>
+                        <div class="product-action">
+                            <button class="btn btn--outline btn--sm">View Results</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-logo">💧</div>
+                            <div class="product-info">
+                                <h3>Cruiser®</h3>
+                                <span class="product-category">Seed Treatment</span>
+                            </div>
+                        </div>
+                        <div class="product-benefits">
+                            <span>✓ Early season protection</span>
+                            <span>✓ Multiple crop support</span>
+                            <span>✓ Root development</span>
+                        </div>
+                        <div class="product-action">
+                            <button class="btn btn--outline btn--sm">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-diagnostic">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🔍 AI Disease Diagnostic</h3>
+                            <span class="live-indicator">Live</span>
+                        </div>
+                        <div class="card__body">
+                            <div class="diagnostic-interface">
+                                <div class="upload-zone" id="imageUpload">
+                                    <div class="upload-icon">📱</div>
+                                    <p>Tap to upload crop image for instant AI diagnosis</p>
+                                    <button class="btn btn--primary">Upload Image</button>
+                                </div>
+                                <div class="diagnostic-result hidden" id="diagnosticResult">
+                                    <div class="diagnosis-header">
+                                        <span class="diagnosis-status healthy">✅ Healthy Crop Detected</span>
+                                        <span class="confidence">Confidence: 96%</span>
+                                    </div>
+                                    <div class="recommendation">
+                                        <strong>AI Recommendation:</strong> Continue current Miravis Neo treatment schedule. 
+                                        Next application in 7 days for optimal protection.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seeds & Varieties Hub -->
+    <section id="seeds" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seeds & Varieties Optimization Hub</h2>
+                <p class="section-subtitle">Premium Syngenta Seeds Portfolio for Maharashtra & India</p>
+            </div>
+            
+            <div class="seeds-dashboard">
+                <div class="varieties-grid">
+                    <div class="variety-card premium">
+                        <div class="variety-header">
+                            <div class="variety-icon">🌽</div>
+                            <div class="variety-info">
+                                <h3>NK Corn Hybrids</h3>
+                                <span class="variety-region">Maharashtra Optimized</span>
+                            </div>
+                            <div class="variety-badge premium">Premium</div>
+                        </div>
+                        <div class="variety-traits">
+                            <div class="trait">🌧️ Drought Tolerance: High</div>
+                            <div class="trait">📈 Yield Potential: 12-15 tons/ha</div>
+                            <div class="trait">🛡️ Disease Resistance: Excellent</div>
+                        </div>
+                        <div class="variety-performance">
+                            <div class="performance-metric">
+                                <span class="metric-label">Regional Success</span>
+                                <span class="metric-value">94%</span>
+                            </div>
+                            <div class="performance-metric">
+                                <span class="metric-label">Farmer Rating</span>
+                                <span class="metric-value">4.8/5</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--primary">Select Variety</button>
+                    </div>
+
+                    <div class="variety-card">
+                        <div class="variety-header">
+                            <div class="variety-icon">🫘</div>
+                            <div class="variety-info">
+                                <h3>Syngenta Soybeans</h3>
+                                <span class="variety-region">Premium Quality</span>
+                            </div>
+                            <div class="variety-badge">Proven</div>
+                        </div>
+                        <div class="variety-traits">
+                            <div class="trait">💪 Disease Resistance: Superior</div>
+                            <div class="trait">🏆 Oil Content: 20-22%</div>
+                            <div class="trait">⚡ Maturity: 95-105 days</div>
+                        </div>
+                        <div class="variety-performance">
+                            <div class="performance-metric">
+                                <span class="metric-label">Yield Advantage</span>
+                                <span class="metric-value">18%</span>
+                            </div>
+                            <div class="performance-metric">
+                                <span class="metric-label">Market Premium</span>
+                                <span class="metric-value">₹300/qt</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline">Learn More</button>
+                    </div>
+
+                    <div class="variety-card">
+                        <div class="variety-header">
+                            <div class="variety-icon">🥬</div>
+                            <div class="variety-info">
+                                <h3>Vegetable Seeds</h3>
+                                <span class="variety-region">Quality Standards</span>
+                            </div>
+                            <div class="variety-badge">New</div>
+                        </div>
+                        <div class="variety-traits">
+                            <div class="trait">🎯 Uniformity: Exceptional</div>
+                            <div class="trait">📦 Shelf Life: Extended</div>
+                            <div class="trait">🌡️ Heat Tolerance: High</div>
+                        </div>
+                        <div class="variety-performance">
+                            <div class="performance-metric">
+                                <span class="metric-label">Quality Score</span>
+                                <span class="metric-value">9.2/10</span>
+                            </div>
+                            <div class="performance-metric">
+                                <span class="metric-label">Market Value</span>
+                                <span class="metric-value">Premium</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--outline">Explore</button>
+                    </div>
+                </div>
+
+                <div class="rotation-planner">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🔄 AI Crop Rotation Planner</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="rotation-interface">
+                                <div class="current-crop">
+                                    <label>Current Crop</label>
+                                    <select class="form-control">
+                                        <option>Cotton</option>
+                                        <option>Soybean</option>
+                                        <option>Corn</option>
+                                        <option>Sugarcane</option>
+                                    </select>
+                                </div>
+                                <div class="rotation-suggestion">
+                                    <h4>🤖 AI Recommendation for Next Season</h4>
+                                    <div class="suggestion-card">
+                                        <div class="suggestion-crop">
+                                            <span class="crop-icon">🫘</span>
+                                            <span class="crop-name">Soybean (Premium Variety)</span>
+                                        </div>
+                                        <div class="suggestion-benefits">
+                                            <span class="benefit">✓ Soil nitrogen fixation</span>
+                                            <span class="benefit">✓ 28% profit increase potential</span>
+                                            <span class="benefit">✓ Reduced input costs</span>
+                                        </div>
+                                        <button class="btn btn--primary">Accept Rotation</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Interface Demo -->
+    <section id="voice" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Voice-First Multilingual Interface</h2>
+                <p class="section-subtitle">Hands-free farming assistance in your preferred language</p>
+            </div>
+            
+            <div class="voice-demo">
+                <div class="voice-controls-section">
+                    <div class="voice-activation">
+                        <button class="voice-btn-large" id="mainVoiceBtn">
+                            <div class="voice-animation">
+                                <div class="voice-wave"></div>
+                                <div class="voice-wave"></div>
+                                <div class="voice-wave"></div>
+                            </div>
+                            <span class="voice-icon">🎤</span>
+                            <span class="voice-text">बोलें / Speak / बोला</span>
+                        </button>
+                    </div>
+                    
+                    <div class="language-selector-voice">
+                        <div class="language-option active" data-lang="hi">
+                            <span class="lang-flag">🇮🇳</span>
+                            <span class="lang-name">हिंदी</span>
+                        </div>
+                        <div class="language-option" data-lang="mr">
+                            <span class="lang-flag">🇮🇳</span>
+                            <span class="lang-name">मराठी</span>
+                        </div>
+                        <div class="language-option" data-lang="en">
+                            <span class="lang-flag">🇺🇸</span>
+                            <span class="lang-name">English</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-samples">
+                    <h3>Sample Voice Commands</h3>
+                    <div class="samples-grid">
+                        <div class="sample-card" data-command="pricing">
+                            <div class="sample-text hindi">"मेरे कपास की कीमत क्या मिल सकती है?"</div>
+                            <div class="sample-text english">"What price can I get for my cotton?"</div>
+                            <button class="btn btn--sm btn--outline try-command">Try Command</button>
+                        </div>
+                        
+                        <div class="sample-card" data-command="disease">
+                            <div class="sample-text marathi">"माझ्या टोमॅटोची पाने पिवळी होत आहेत"</div>
+                            <div class="sample-text english">"My tomato leaves are turning yellow"</div>
+                            <button class="btn btn--sm btn--outline try-command">Try Command</button>
+                        </div>
+                        
+                        <div class="sample-card" data-command="seeds">
+                            <div class="sample-text hindi">"मेरी मिट्टी के लिए कौन से बीज अच्छे हैं?"</div>
+                            <div class="sample-text english">"Which seeds are good for my soil?"</div>
+                            <button class="btn btn--sm btn--outline try-command">Try Command</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-conversation">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Live Conversation</h3>
+                            <div class="conversation-status">
+                                <div class="status-indicator listening"></div>
+                                <span>Ready to listen</span>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <div class="conversation-history" id="voiceHistory">
+                                <div class="conversation-message system">
+                                    <span class="speaker">🤖 Crop Whisperer:</span>
+                                    <span class="message">नमस्कार! मैं आपकी फसल से जुड़े सवालों में मदद कर सकता हूं। कृपया बोलें।</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Negotiation Platform -->
+    <section id="negotiation" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Smart Negotiation & Fair Pricing Platform</h2>
+                <p class="section-subtitle">AI-powered multi-agent negotiation preventing farmer exploitation</p>
+            </div>
+            
+            <div class="negotiation-platform">
+                <div class="market-intelligence">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Real-time Market Intelligence</h3>
+                            <span class="live-indicator">Live from 500+ Mandis</span>
+                        </div>
+                        <div class="card__body">
+                            <div class="market-prices-grid">
+                                <div class="price-item cotton">
+                                    <div class="crop-info">
+                                        <span class="crop-name">Cotton</span>
+                                        <span class="crop-quality">Premium Grade</span>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="current-price">₹5,800</span>
+                                        <span class="price-trend up">+₹400</span>
+                                        <span class="quality-premium">+₹400 quality bonus</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="price-item soybean">
+                                    <div class="crop-info">
+                                        <span class="crop-name">Soybean</span>
+                                        <span class="crop-quality">Standard</span>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="current-price">₹4,600</span>
+                                        <span class="price-trend stable">₹0</span>
+                                        <span class="quality-premium">+₹300 quality bonus</span>
+                                    </div>
+                                </div>
+
+                                <div class="price-item corn">
+                                    <div class="crop-info">
+                                        <span class="crop-name">Corn</span>
+                                        <span class="crop-quality">High Yield</span>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="current-price">₹2,100</span>
+                                        <span class="price-trend up">+₹150</span>
+                                        <span class="quality-premium">+₹200 quality bonus</span>
+                                    </div>
+                                </div>
+
+                                <div class="price-item sugarcane">
+                                    <div class="crop-info">
+                                        <span class="crop-name">Sugarcane</span>
+                                        <span class="crop-quality">Sweet Variety</span>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="current-price">₹3,200</span>
+                                        <span class="price-trend stable">₹0</span>
+                                        <span class="quality-premium">+₹150 quality bonus</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="negotiation-simulator-advanced">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>AI Negotiation in Progress</h3>
+                            <button class="btn btn--primary" id="startAdvancedNegotiation">Start New Negotiation</button>
+                        </div>
+                        <div class="card__body">
+                            <div class="negotiation-participants">
+                                <div class="participant farmer-agent">
+                                    <div class="agent-avatar">👨‍🌾</div>
+                                    <div class="agent-details">
+                                        <h4>किसान मित्र</h4>
+                                        <span>Protecting your interests</span>
+                                        <div class="agent-strength">💪 Success Rate: 94%</div>
+                                    </div>
+                                </div>
+
+                                <div class="negotiation-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 75%"></div>
+                                    </div>
+                                    <span class="progress-text">Negotiation 75% Complete</span>
+                                </div>
+
+                                <div class="participant buyer-agent">
+                                    <div class="agent-avatar">🏢</div>
+                                    <div class="agent-details">
+                                        <h4>Market Connect</h4>
+                                        <span>Buyer representative</span>
+                                        <div class="agent-strength">📈 Market Expert</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="negotiation-details-advanced">
+                                <div class="deal-summary">
+                                    <h4>Current Deal Summary</h4>
+                                    <div class="deal-grid">
+                                        <div class="deal-item">
+                                            <label>Crop Type</label>
+                                            <span>Cotton (Premium)</span>
+                                        </div>
+                                        <div class="deal-item">
+                                            <label>Quantity</label>
+                                            <span>500 quintals</span>
+                                        </div>
+                                        <div class="deal-item">
+                                            <label>Base Price</label>
+                                            <span>₹5,200 per quintal</span>
+                                        </div>
+                                        <div class="deal-item highlight">
+                                            <label>Negotiated Price</label>
+                                            <span>₹5,650 per quintal</span>
+                                        </div>
+                                        <div class="deal-item bonus">
+                                            <label>Sustainability Bonus</label>
+                                            <span>+₹150 per quintal</span>
+                                        </div>
+                                        <div class="deal-item total">
+                                            <label>Total Value</label>
+                                            <span>₹29,00,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="negotiation-actions">
+                                <button class="btn btn--success" id="acceptDeal">✅ Accept Deal</button>
+                                <button class="btn btn--outline" id="counterOffer">💬 Counter Offer</button>
+                                <button class="btn btn--outline" id="getAdvice">🤖 Get AI Advice</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability & Carbon Intelligence -->
+    <section id="sustainability" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sustainability & Carbon Intelligence</h2>
+                <p class="section-subtitle">Carbon-neutral agriculture aligned with Syngenta's 2030 goals</p>
+            </div>
+            
+            <div class="sustainability-platform">
+                <div class="carbon-dashboard">
+                    <div class="carbon-overview">
+                        <div class="carbon-metric primary">
+                            <div class="metric-icon">🌍</div>
+                            <div class="metric-info">
+                                <span class="metric-value">22%</span>
+                                <span class="metric-label">Carbon Footprint Reduction</span>
+                                <span class="metric-target">Target: 38% by 2030</span>
+                            </div>
+                        </div>
+
+                        <div class="carbon-metric">
+                            <div class="metric-icon">💧</div>
+                            <div class="metric-info">
+                                <span class="metric-value">+28%</span>
+                                <span class="metric-label">Water Usage Efficiency</span>
+                                <span class="metric-trend positive">↗ Improving</span>
+                            </div>
+                        </div>
+
+                        <div class="carbon-metric">
+                            <div class="metric-icon">🌱</div>
+                            <div class="metric-info">
+                                <span class="metric-value">+19%</span>
+                                <span class="metric-label">Soil Health Improvement</span>
+                                <span class="metric-trend positive">↗ Excellent</span>
+                            </div>
+                        </div>
+
+                        <div class="carbon-metric">
+                            <div class="metric-icon">🦋</div>
+                            <div class="metric-info">
+                                <span class="metric-value">8.2/10</span>
+                                <span class="metric-label">Biodiversity Score</span>
+                                <span class="metric-trend stable">→ Stable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carbon-credits-marketplace">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🏪 Carbon Credit Marketplace</h3>
+                            <span class="market-status">Market Open</span>
+                        </div>
+                        <div class="card__body">
+                            <div class="credits-portfolio">
+                                <div class="portfolio-summary">
+                                    <div class="portfolio-item">
+                                        <span class="portfolio-label">Total Credits Earned</span>
+                                        <span class="portfolio-value">2,847 credits</span>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <span class="portfolio-label">Current Market Value</span>
+                                        <span class="portfolio-value">₹4,27,050</span>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <span class="portfolio-label">This Month</span>
+                                        <span class="portfolio-value">+234 credits</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="marketplace-actions">
+                                    <button class="btn btn--primary">🔄 Sell Credits</button>
+                                    <button class="btn btn--outline">📈 Market Trends</button>
+                                    <button class="btn btn--outline">📋 Credit History</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="regenerative-practices">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🌾 Regenerative Agriculture Practices</h3>
+                            <span class="adoption-rate">41% Adoption Rate</span>
+                        </div>
+                        <div class="card__body">
+                            <div class="practices-grid">
+                                <div class="practice-item completed">
+                                    <div class="practice-icon">✅</div>
+                                    <div class="practice-info">
+                                        <h4>Cover Cropping</h4>
+                                        <p>Implemented on 85% of farmland</p>
+                                        <span class="carbon-impact">+150 carbon credits/year</span>
+                                    </div>
+                                </div>
+
+                                <div class="practice-item completed">
+                                    <div class="practice-icon">✅</div>
+                                    <div class="practice-info">
+                                        <h4>Reduced Tillage</h4>
+                                        <p>60% reduction in soil disturbance</p>
+                                        <span class="carbon-impact">+120 carbon credits/year</span>
+                                    </div>
+                                </div>
+
+                                <div class="practice-item in-progress">
+                                    <div class="practice-icon">⏳</div>
+                                    <div class="practice-info">
+                                        <h4>Crop Diversification</h4>
+                                        <p>40% implementation progress</p>
+                                        <span class="carbon-impact">+200 potential credits</span>
+                                    </div>
+                                </div>
+
+                                <div class="practice-item planned">
+                                    <div class="practice-icon">📅</div>
+                                    <div class="practice-info">
+                                        <h4>Agroforestry</h4>
+                                        <p>Planning phase - Q2 2025</p>
+                                        <span class="carbon-impact">+300 potential credits</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Center -->
+    <section id="training" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Demo & Training Center</h2>
+                <p class="section-subtitle">Master the AI agents through interactive learning</p>
+            </div>
+            
+            <div class="training-platform">
+                <div class="training-modules">
+                    <div class="module-card featured">
+                        <div class="module-header">
+                            <div class="module-icon">🎯</div>
+                            <div class="module-info">
+                                <h3>AI Negotiation Mastery</h3>
+                                <span class="module-duration">45 mins</span>
+                            </div>
+                            <div class="module-badge">Popular</div>
+                        </div>
+                        <div class="module-description">
+                            Learn advanced negotiation techniques with AI agents. Practice with real market scenarios.
+                        </div>
+                        <div class="module-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                            <span class="progress-text">65% Complete</span>
+                        </div>
+                        <div class="module-stats">
+                            <span class="stat">👥 1,247 farmers trained</span>
+                            <span class="stat">⭐ 4.9/5 rating</span>
+                        </div>
+                        <button class="btn btn--primary">Continue Learning</button>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">🌱</div>
+                            <div class="module-info">
+                                <h3>Seed Selection Optimization</h3>
+                                <span class="module-duration">30 mins</span>
+                            </div>
+                            <div class="module-badge">New</div>
+                        </div>
+                        <div class="module-description">
+                            Master the art of selecting optimal seed varieties using Syngenta's AI recommendations.
+                        </div>
+                        <div class="module-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text">Not started</span>
+                        </div>
+                        <div class="module-stats">
+                            <span class="stat">👥 892 farmers enrolled</span>
+                            <span class="stat">📈 25% yield improvement avg</span>
+                        </div>
+                        <button class="btn btn--outline">Start Module</button>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">🛡️</div>
+                            <div class="module-info">
+                                <h3>Crop Protection Strategies</h3>
+                                <span class="module-duration">40 mins</span>
+                            </div>
+                        </div>
+                        <div class="module-description">
+                            Learn optimal use of Syngenta protection products with AI-guided application timing.
+                        </div>
+                        <div class="module-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 100%"></div>
+                            </div>
+                            <span class="progress-text">Completed ✅</span>
+                        </div>
+                        <div class="module-stats">
+                            <span class="stat">👥 2,156 farmers certified</span>
+                            <span class="stat">🏆 Expert level achieved</span>
+                        </div>
+                        <button class="btn btn--outline">Review Certificate</button>
+                    </div>
+                </div>
+
+                <div class="success-stories-training">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>🏆 Success Stories</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="stories-carousel">
+                                <div class="story-card active">
+                                    <div class="story-farmer">
+                                        <div class="farmer-avatar">👨‍🌾</div>
+                                        <div class="farmer-details">
+                                            <h4>राजेश पाटील (Rajesh Patil)</h4>
+                                            <span>Pune, Maharashtra • Cotton Farmer</span>
+                                        </div>
+                                    </div>
+                                    <div class="story-improvement">
+                                        <span class="improvement-metric">28% Yield Increase</span>
+                                        <span class="syngenta-products">ADEPIDYN + Premium Seeds</span>
+                                    </div>
+                                    <div class="story-quote">
+                                        "Syngenta AI helped me choose the right protection and seeds. 
+                                        My cotton quality improved significantly, earning premium market prices."
+                                    </div>
+                                </div>
+
+                                <div class="story-card">
+                                    <div class="story-farmer">
+                                        <div class="farmer-avatar">👩‍🌾</div>
+                                        <div class="farmer-details">
+                                            <h4>सुनीता देशपांडे (Sunita Deshpande)</h4>
+                                            <span>Nashik, Maharashtra • Soybean</span>
+                                        </div>
+                                    </div>
+                                    <div class="story-improvement">
+                                        <span class="improvement-metric">₹45,000 Additional Income</span>
+                                        <span class="syngenta-products">Miravis Neo + Premium Varieties</span>
+                                    </div>
+                                    <div class="story-quote">
+                                        "Disease prevention with Miravis Neo and quality seeds gave me 
+                                        premium market prices. The AI training was excellent!"
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🎉 Welcome to Syngenta AI AgentHub</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="success-content">
+                    <div class="success-icon">✅</div>
+                    <h4>Your AI Farm Journey Starts Now!</h4>
+                    <p>You now have access to all 10 AI agents working together to maximize your farm's potential.</p>
+                    
+                    <div class="next-steps">
+                        <h5>Recommended Next Steps:</h5>
+                        <div class="step-list">
+                            <div class="step">1️⃣ Set up your farm profile</div>
+                            <div class="step">2️⃣ Connect with Crop Guardian for protection</div>
+                            <div class="step">3️⃣ Try voice commands with Crop Whisperer</div>
+                            <div class="step">4️⃣ Start negotiation training</div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn btn--primary" id="startSetup">🚀 Start Setup</button>
+                        <button class="btn btn--outline modal-close">Explore Later</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Chat Support -->
+    <div class="live-chat" id="liveChat">
+        <div class="chat-bubble">
+            <span>💬 Need help? Chat with our AI support!</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
